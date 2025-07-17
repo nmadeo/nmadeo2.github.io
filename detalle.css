@@ -1,0 +1,378 @@
+/*Este es un comentario de CSS*/
+/*Los comentarios de CSS no se renderizan en la página*/
+/*Todas las declaraciones de estilo se encuentran en el CSS, el HTML es para contenido únicamente*/
+
+/*Reseteo de márgenes de todos los elementos para todos los navegadores*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /*Declaración de tipografía*/
+    font-family: 'poppins', sans-serif;
+    /*Declaración de peso de Tipografía*/
+    font-weight: 100;
+    /*Declaración de color de fondo del body*/
+    background-color: rgb(253, 254, 240);
+    /*Declaración del color de la tipografía en el body*/
+    color: black;
+    
+}
+
+
+
+/* SECCIONES */
+section {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.seccion1 {    
+    background-image: url('seccion1.png');  
+    padding-top: 135px;
+    padding-bottom: 120px;
+    
+}
+
+.seccion2 {
+    background-image: url('seccion2.png');
+    min-height: 704px;
+    padding-top: 170px;
+    padding-bottom: 120px;
+}
+.seccion3 {
+    background-image: url('seccion3.png');
+    min-height: 1042px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.seccion4 {
+    background-image: url('seccion4.png');
+    min-height: 1183px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.seccion5 {
+    background-image: url('seccionEDIT5.png');
+    min-height: 759px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.seccion6 {
+    background-image: url('seccionEDIT6.png');
+    min-height: 874px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.seccion7 {
+    background-image: url('seccion9.png');
+    min-height: 1047px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+/* ---------------------------------------------------- */
+
+
+/* BARRA DE NAVEGACION */
+nav.navbar {
+    /*Color de texto declarado en rgb*/
+    background-color: rgb(255, 148, 65);
+    width: 100%;
+}
+
+nav a{
+    /*Color te texto*/
+    color: rgb(253, 254, 240);
+    /*Peso de la tipografía (tiene que estar linkeada la variable)*/
+    font-weight: 700;
+    /*Espaciado interno*/
+    padding: 25px;
+    /*Tiempo de transición animaciones de hover (mirar abajo)*/
+    transition:  color 1s;
+}
+
+.navbar-brand {
+    font-family: 'neulis-cursive', sans-serif;
+    font-weight: 600;
+    color: white;
+}   
+
+.nav-link {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    color: white;    
+} 
+
+/*Cambios al pasar el mouse sobre el elemento (hover)*/
+nav a:hover{
+    /*Cambio de color*/
+    color: #ffffff;
+}
+
+/*ESTILOS LOGO BARRA DE NAVEGACIÓN*/
+#logo img{
+    /*Altura de imagen relativa al espacio disponible: "100% del espacio"*/
+    height: 100%;
+    /*Altura máxima que puede alcanzar la imagen: 80px*/
+    max-height: 80px;
+    /*Posicionamiento 10px abajo de dónde debería estar*/
+    position: relative;
+    top: 10px;
+}
+
+/* ---------------------------------------------------- */
+
+/* PORTADA */
+.h1-portada {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'poppins';
+    color: rgb(163, 213, 244);
+    margin-bottom: 22px;
+}
+.p-portada {
+    max-width: 450px;
+    font-family: 'poppins';
+    font-weight: 600;
+    color: rgb(85,85,85);
+    margin-bottom: 20px;
+}
+.p-portada2 {
+    font-size: 30px;
+    max-width: 450px;
+    font-family: 'poppins';
+    font-weight: 600;
+    color: rgb(85,85,85);
+}
+/* boton llamado "btn" */
+/* ---------------------------------------------------- */
+
+/* CONTENIDO */
+.h1-seccion2 {
+    font-weight: 600;
+    font-family: 'poppins';
+    color: rgb(237, 112, 164);
+}
+.h5-seccion2 {
+    font-family: 'poppins';
+    font-weight: 700;
+    color: rgb(85,85,85);
+    max-width: 165px;
+}
+/* ---------------------------------------------------- */
+
+/* QUE ES PEQUESWAP */
+.h1-seccion3 {
+    font-weight: 600;
+    font-family: 'poppins';
+    color: rgb(237, 112, 164);
+}
+.p-seccion3 {
+    max-width: 450px;
+    font-family: 'poppins';
+    font-weight: 500;
+    color: rgb(85,85,85);
+}
+.espacio-seccion3 {
+    margin-bottom: 40px;
+}
+.separarion-seccion3 {
+    padding-left: 150px;
+}
+/* ---------------------------------------------------- */
+
+/* QUIENES SOMOS */
+.espacio-superior-seccion4 {
+    padding-top: 100px;
+}
+.h1-seccion4 {
+    font-weight: 600;
+    font-family: 'poppins';
+    color: rgb(253, 254, 240);
+    margin-bottom: 40px;
+}
+.h4-seccion4 {
+    font-family: 'poppins';
+    font-weight: 550;
+    color: rgb(85,85,85);
+    margin-bottom: 32px;
+}
+/* boton llamado "btn" */
+/* ---------------------------------------------------- */
+
+/* MEDIOS DE PAGO */
+.h1-seccion5 {
+    font-weight: 600;
+    font-family: 'poppins';
+    color: rgb(237, 112, 164);
+}
+.espaciado-seccion5 {
+    margin-top: 100px;
+}
+.h4-seccion5 {
+    font-family: 'poppins';
+    font-weight: 700;
+    color: rgb(85,85,85);
+}
+.img-seccion5 {
+    margin-bottom: 20px;
+}
+
+/* ---------------------------------------------------- */
+
+/* OPINIONES DE SUSCRIPTORES */
+.h1-seccion6 {
+    font-family: 'poppins';
+    font-weight: 600;
+    color: rgb(237, 112, 164);
+    margin-bottom: 72px;
+}
+.p-seccion6 {
+    font-family: 'poppins';
+    font-weight: 600;
+    color: rgb(85,85,85);
+}
+.testimonios{
+    font-family: 'poppins';
+    font-style: italic;
+    font-weight: 500;
+    color: rgb(85,85,85);
+}
+.blockquote-footer{
+    font-family: 'poppins';
+    font-weight: 400;
+    color: rgb(85,85,85);
+}
+/* ---------------------------------------------------- */
+
+/* FORMULARIO DE CONTACTO */
+.contact-container {
+    max-width: 600px;
+    margin: auto;
+}
+.h1-seccion7 {
+    color: rgb(85,85,85);
+    font-weight: 600;
+    text-align: left;
+    font-family: 'poppins';
+}
+.contact-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.contact-row div {
+    flex: 1;
+}
+.label-seccion7 {
+    color: rgb(85,85,85);
+    font-weight: 500;
+}
+.contact-input, .contact-textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+.contact-button-container {
+    text-align: center;
+}
+.separacion-seccion7{
+    padding-bottom: 300px;
+}
+/*  boton llamado "btn"  */
+/* ---------------------------------------------------- */
+
+/* REDES SOCIALES */
+
+.social-container h1 {
+    color: rgb(85,85,85);    
+    font-family: 'neulis-cursive', sans-serif;
+    font-weight:500;
+    font-size: 80px;
+}
+
+.social-container p {
+    color: rgb(85,85,85);
+    font-family: 'poppins', sans-serif;
+    font-size: 24px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+/* ---------------------------------------------------- */
+
+
+/*ESTILOS DE BANNER*/
+.banner {
+    /*Imagen de fondo*/
+    background-image: url(media/mar.jpg);
+    /*Posición del fondo x|y*/
+    background-position: center bottom;
+    /*¿Repetir fondo? (tramas)*/
+    background-repeat: no-repeat;
+    /*Tamaño de fondo: cubrir todo el espacio*/
+    background-size: cover;
+    /*Ancho: cubrir el 100%*/
+    width: 100%;
+    /*Alto: cubrir el 100% de la pantalla que o visualiza*/
+    height: 100vh;
+}
+
+.banner_info {
+    /*Color de texto*/
+    color: rgb(25, 114, 255);
+    /*Centrar texto*/
+    text-align: center;
+    /*Transformar texto a mayúsuclas*/
+    text-transform: uppercase;
+    /*Sombra: offset-x | offset-y | blur-radius | color */
+    text-shadow: 2px 2px 3px white;
+    /*Espaciado interior*/
+    padding: 0px 0px 100px 0px;
+
+}
+
+/*ESTILOS DEL BOTON*/
+.btn {
+    /*Color de fondo*/
+    background-color: rgb(255, 148, 65);
+    /*Color de tipografía*/
+    color: rgb(253, 254, 240);
+    /*Decoracion del texto*/
+    text-decoration: none;
+    /*Alineación del texto*/
+    text-align: center;
+    /*Borde redondeado*/
+    border-radius: 0px;
+    /*Tamaño de fuente*/
+    font-size: 16px;
+    /*PEso de fuente*/
+    font-weight: bold;
+    /*Cambios al hover por tiempo (1s)*/
+    transition: all 1s;
+    /*Ancho del boton*/
+    min-width: 170px;
+}
+
+/*Al pasar el mouse por arriba*/
+.btn:hover {
+    /*Cambio de color de fondo*/
+    background-color: rgb(163, 213, 244);
+    /*Color de tipografía*/
+    color: white;
+}
+
+/*ESTRUCTURA de la plantilla | Tocar bajo su propio riesgo*/
+.col{display:flex;flex-flow:column nowrap;justify-content:center;align-content:center}.colb{display:flex;flex-flow:column nowrap;justify-content:flex-end;align-content:center}.row{display:flex;flex-flow:row nowrap;justify-content:center;align-content:center}nav{position:absolute;top:0;width:99%}.colores{display:flex;flex-flow:row nowrap;justify-content:center;align-items:center}.color{width:100px;height:100px;margin:25px;display:flex;flex-flow:row nowrap;justify-content:center;align-items:center}h1{margin-bottom:10px}p{margin-bottom:10px;font-weight: 300;}.icon{width:70%}@media only screen and (max-width:600px){nav a{display:none}}
